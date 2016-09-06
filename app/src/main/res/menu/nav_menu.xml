@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pedidos"
+            android:icon="@drawable/ic_store"
+            android:title="@string/pedidos_item" />
+        <item
+            android:id="@+id/nav_tuspedidos"
+            android:icon="@drawable/ic_file_document"
+            android:title="@string/Tuspedidos_item" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_perfil"
+            android:title="@string/perfil_item" />
+
+        <item
+            android:id="@+id/nav_ordenes"
+            android:icon="@drawable/ic_ordenes"
+            android:title="@string/publicacion_item" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="@string/info_item" />
+        <!-- Sección de publición -->
+        <item
+            android:id="@+id/Publicar_sesion"
+            android:title="@string/publicacion_item">
+            <menu>
+                <item
+                    android:id="@+id/nv_Publicar_plato"
+                    android:icon="@drawable/publicar"
+                    android:title="@string/publicar_item" />
+            </menu>
+        </item>
+
+        <!-- Sección de configuración -->
+        <item
+            android:id="@+id/configuration_section"
+            android:title="@string/configuracion_item">
+            <menu>
+                <item
+                    android:id="@+id/nav_log_out"
+                    android:icon="@android:drawable/ic_lock_power_off"
+                    android:title="@string/log_out_item" />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

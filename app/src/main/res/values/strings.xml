@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">AtHome</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fragment_mapas">Map</string>
+
+    <!-- Strings related to login - Inicio sesion-->
+    <string name="texto_cambiar_contrasena">Cambia tu contraseña</string>
+    <string name="prompt_email">Correo electronico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_name">Nombre y Apellido</string>
+    <string name="prompt_surname">Apellido</string>
+    <string name="prompt_olvido_pass">¿Olvidaste la clave?</string>
+    <string name="action_sign_in">Registrate</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="Registro">Registrate</string>
+    <string name="In_sesion">Iniciar sesión</string>
+    <string name="Info_olvi_pass">Si olvidaste tu constraseña digita tu correo electronico</string>
+    <string name="Btn_Info_olvi_pass">Enviar</string>
+
+    <string name="facebook_app_id">153614845002777</string>
+
+    <string name="title_activity_Registro">Regístrate con tu correo</string>
+    <string name="title_activity_login">Inicia sesión o regístrate</string>
+    <string name="title_activity_Ins">Inicia sesión con tu correo</string>
+
+    <!-- Strings navigation -->
+    <string name="home_item">Home</string>
+    <string name="pedidos_item">Realiza tus pedidos</string>
+    <string name="perfil_item">Perfil</string>
+    <string name="Tuspedidos_item">Tus Ordenes</string>
+    <string name="publicacion_item">Tus Publicaciones</string>
+
+    <string name="info_item">Acerca de</string>
+    <string name="publicar_item">Publica tu plato</string>
+    <string name="log_out_item">Cerrar Sesión</string>
+    <string name="configuracion_item">Configuración</string>
+    <string name="accept">accept</string>
+
+     <string name="Descripcion">Delicioso ajiaco
+         con pollo  </string>
+
+    <string name="DesFotosPlato">Carga las fotos de tu plato</string>
+    <string name="barraPrecio">TOTAL  $12000</string>
+    <string name="title_activity_plato_detail">PlatoDetail</string>
+
+    <string name="Eleccion">EXCELENTE ELECCIÓN</string>
+    <string name="Facturacion_plato">Nuestra ama de casa te preparara un delisioso ajiaco con pollo y mazorca, acompañado
+                                    de arroz, todo hecho en casa.</string>
+    <string name="facturacion_fecha">FECHA DEL PEDIDO:</string>
+    <string name="facturacion_hora">HORA DEL PEDIDO:</string>
+    <string name="tiempo_estimado">TIEMPO ESTIMADO DE ENTREGA:</string>
+    <string name="lugar_entrega">LUGAR DE ENTREGA:</string>
+    <string name="Numero_pedido">Nº DE PEDIDO:</string>
+    <string name="Facturacion_recomendacion">Recuerda que tu pedido sera cargado a tu cuenta, autorizando que el valor de esta orden
+                                            sera descontando de la nomina correspondiente.</string>
+
+    <string name="title_Tabs_Favortos">Mas Cercanos</string>
+    <string name="title_Tabs_Mapas">Mapa</string>
+    <string name="title_Tabs_Publicadas">Publicaciones</string>
+    <string name="title_Tabs_Entregas">Entregas</string>
+    <string name="title_Tabs_Coment">Comentarios</string>
+    <string name="title_activity_perfil_2">Perfil_2</string>
+
+    <string name="Plato">Ajiaco</string>
+    <string name="Plato2">Mojarra</string>
+    <string name="Plato3">Sandwich</string>
+
+    <string name="Tipo_plato">Tipo de Plato</string>
+    <string name="desTipoPlato">Selecciona que tipo de plato vas a publicar</string>
+    <string name="desNombrePlato">Agisnale el nombre al plato</string>
+    <string name="desCantidadPlato">Cantidad</string>
+    <string name="Direccion">Ubicación</string>
+    <string name="desDireccion">Comentanos la ubicación actual del Plato</string>
+    <string name="ResumenPlato">Descripción del plato</string>
+    <string name="DesResumenPlato">Resume lo mas relevante de tu plato</string>
+    <string name="PrecioPlato">Precio del Plato</string>
+    <string name="desPrecioPlato">Establece el precio del plato</string>
+    <string name="Guardar_boton_cd">Guardar Dirección</string>
+    <string name="Guardar_boton_descrip">Guardar Descripciones</string>
+    <string name="info_text">Esta la dirección donde se encuentra ubicado el plato que publicaras</string>
+    <string name="info_text2">Aun no tienes pedidos pendientes</string>
+    <string name="info_text3">Somos una empresa encargada de brindarte la mejor comida hecha en casa, de la mejor calidad y a los
+        mejores precios.</string>
+    <string name="info_des_text">Los siguiente información ayudara a que tu publicación se vea más atractiva </string>
+    <string name="title_activity_cargar_datos2">CargarDatos2</string>
+
+    <string name="nombre_input">Cambia tu Diección</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_lista_pedidos">ListaPedidos</string>
+    <string name="title_activity_perfil2">Perfil2</string>
+    <string name="title_activity_about">About</string>
+
+</resources>

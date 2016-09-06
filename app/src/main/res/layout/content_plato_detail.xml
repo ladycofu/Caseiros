@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" tools:showIn="@layout/plato_detail"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.lady.athome.Facturacion.PlatoDetail">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:background="@color/md_yellow_600">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AJIACO"
+            android:textSize="50dp"
+            android:id="@+id/textView_nombre_plato_dialog"
+            android:textColor="@color/md_black_1000"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar_dialog"
+            android:layout_below="@+id/textView_nombre_plato_dialog"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="33dp"
+            android:layout_marginEnd="33dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Descripciòn del plato"
+            android:id="@+id/textView_descrip_plato_dialog"
+            android:layout_below="@+id/ratingBar_dialog"
+            android:layout_alignLeft="@+id/textView_nombre_plato_dialog"
+            android:layout_alignStart="@+id/textView_nombre_plato_dialog" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$12.000"
+            android:id="@+id/textView_precio_dialog"
+            android:textColor="@color/md_red_900"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/ratingBar_dialog"
+            android:layout_alignEnd="@+id/ratingBar_dialog" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="250dp"
+            android:id="@+id/Button_pedido_dialog"
+            android:textColor="@color/md_white_1000"
+            android:text="HACER PEDIDO"
+            android:background="@color/md_red_900"
+            android:onClick="HacerPedidoPlato"
+            android:layout_below="@+id/textView_precio_dialog"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

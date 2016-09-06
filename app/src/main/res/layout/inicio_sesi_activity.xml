@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.athome.Login.Incio_Sesion">
+    <ProgressBar android:id="@+id/login_progress" style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" android:visibility="gone" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout"
+        android:layout_alignTop="@+id/login_progress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <Button android:id="@+id/button_olvido_pass"
+            android:background="@color/md_black_1000_25"
+            android:textColor="@color/md_text_white"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/prompt_olvido_pass"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:layout_toLeftOf="@+id/button_registra_ins"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="BtonOlvidarPass" />
+        <Button android:id="@+id/button_registra_ins"
+            android:background="@color/md_black_1000_25"
+            android:textColor="@color/md_text_white"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Registro"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+
+            android:onClick="lanzarRegistro" />
+
+
+        <ScrollView android:id="@+id/login_form" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="54dp">
+
+            <LinearLayout android:id="@+id/email_login_form" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="vertical"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="131dp"
+                    android:background="@color/md_white_1000_75">
+
+
+                    <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/view4">
+
+                        <AutoCompleteTextView android:id="@+id/txtCorreoIniciarSesion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:hint="@string/prompt_email"
+                            android:inputType="textEmailAddress" android:maxLines="1"
+                            android:singleLine="true" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/view4"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true">
+
+                        <EditText android:id="@+id/txtPasswordIniciarSesion" android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:hint="@string/prompt_password"
+                            android:imeActionId="@+id/login"
+                            android:imeActionLabel="@string/action_sign_in_short"
+                            android:imeOptions="actionUnspecified" android:inputType="textPassword"
+                            android:maxLines="1" android:singleLine="true" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                </RelativeLayout>
+                <Button android:id="@+id/email_sign_in_button"
+                    style="?android:textAppearanceSmall"
+                    android:background="@color/md_deep_orange_400"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/In_sesion"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="ingresarUsuario" />
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
